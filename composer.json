@@ -1,0 +1,8 @@
+{
+    "require": {
+        "filp/whoops": "2.1.8",
+        "phpoffice/phpexcel": "1.8.1",
+        "jenssegers/agent":"*",
+        "phpoffice/phpspreadsheet": "1.13.0"
+    }
+}

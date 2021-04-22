@@ -1,0 +1,151 @@
+/* 全域 modal 覆蓋問題 */
+.modal-backdrop.show {z-index: 1101;}
+.modal {z-index: 1102;}
+
+/* 配合 select2 套件 */
+.select2-container--default.select2-container--open {z-index: 1102;}
+
+/*============  input form css start  ============*/
+.input_form *:focus{outline-color:transparent;outline-style:none}
+.input_form{width: 100%;max-width:100%;margin:0 auto;text-align:left}
+.input_form label{display:block;text-align:left;color: #111;font-size: 16px;}
+.input_form .text-input{overflow:hidden;margin-bottom: 0;margin-top: 0;width: 100%;max-width: 300px;}
+.input_form input[type="text"],.input_form input[type="password"],.input_form input[type="email"],.input_form input[type="number"]{width:100%;padding:7px 5px 7px;background:none;color:#4d4d4d;font-size:16px;font-weight:400;border:none;border-bottom:1px solid #999;}
+.input_form textarea{width:100%;padding:7px 5px 7px;background:none;color:#4d4d4d;font-size:16px;font-weight:400;border:solid 1px #8a8a8a;border-radius:5px;}
+.input_form select{width:100%;padding:7px 5px 7px;background:none;color:#4d4d4d;font-size:16px;height: 45px;font-weight:400;border:solid 1px #9a9a9a;border-radius:5px;}
+.input_form input[type="text"]:focus + .separator, .input_form input[type="password"]:focus + .separator,.input_form input[type="email"]:focus + .separator{-webkit-transform:scaleX(1) translateY(-2px);transform:scaleX(1) translateY(-2px);opacity:1}
+.input_form textarea:focus + .separator{-webkit-transform:scaleX(1) translateY(-2px);transform:scaleX(1) translateY(-2px);opacity:1}
+.input_form select:focus + .separator{-webkit-transform:scaleX(1) translateY(-2px);transform:scaleX(1) translateY(-2px);opacity:1}
+.input_form input[type="submit"]{color:#35a6de;background:#fff;padding: 7px 25px;font-size:16px;border:solid 3px #35a6de;border-radius:25px;display: block;margin: 15px auto;}
+.input_form input[type="submit"]:hover{color:#fff;background:#35a6de;border:solid 3px #35a6de}
+.input_form .separator{height:3px;width:100%;background:#68B3FF;display:block;-webkit-transform:scaleX(0) translateY(-2px);transform:scaleX(0) translateY(-2px);-webkit-transform-origin:50%;transform-origin:50%;opacity:0;transition:all 0.15s linear}
+.input_form .text-input.check{vertical-align:middle;height:40px;line-height:40px;}
+.input_form .text-input.check label{display:inline-block;margin-bottom:0;color:#4d4d4d;cursor: pointer;}
+.input_form .text-input.valuetext{}
+.valuetext_p{min-height: 37px;line-height: 1.5;padding: 7px 9px;background: #f7f7f7;}
+.input_form .check input{position:relative;top:0;margin-top:0;margin-left: 10px;cursor: pointer;margin-right: 10px;}
+.input_form .check input:before{content:"";position:absolute;top:0;left:0;width: 20px;height: 20px;text-align: center;line-height: 20px;background:#e9e9e9;transition:all .35s ease;}
+.input_form .check input:checked:before{content:"\f121";font-family:"Ionicons";color: #000000;font-size: 16px;}
+.input_form .check input:before{left: -5px;top: -5px;}
+.text-input_checkarea,.text-input_radioarea{display: flow-root;}
+.text-input_checkarea .text-input.check{width: initial;display: block;float: left;}
+
+.input_form .radio{}
+.input_form .radio_item{margin:6px 0}
+.input_form .radio_item input[type="radio"]{position:absolute;opacity:0}
+.input_form .radio_item input[type="radio"] + .radio-label:before{content:'';background:#f4f4f4;border-radius:100%;border:1px solid #b4b4b4;display:inline-block;width:20px;height:20px;position: absolute;left: 5px;top: 1px;margin-right:7px;vertical-align:top;cursor:pointer;text-align:center;transition:all 250ms ease;}
+.input_form .radio_item input[type="radio"]:checked + .radio-label:before{background-color:#000000;box-shadow:inset 0 0 0 4px #f4f4f4}
+.input_form .radio_item input[type="radio"]:focus + .radio-label:before{outline:none;border-color:#3197EE}
+.input_form .radio_item input[type="radio"]:disabled + .radio-label:before{box-shadow:inset 0 0 0 4px #f4f4f4;border-color:#b4b4b4;background:#b4b4b4}
+.input_form .radio_item input[type="radio"] + .radio-label:empty:before{margin-right:0}
+.input_form label.radio-label{padding-left:0;position:relative;padding-left: 35px;}
+.input_form label.radio-label span{display:inline-block;color:#4d4d4d;font-size: 15px;font-weight: 700;}
+.text-input_radioarea .radio_item{width: initial;display: block;float: left;}
+
+/*============  input form css end  ============*/
+.cms_image_selectarea {}
+.cms_all_itemarea{display: inline-block;width: 100%;margin-bottom: 30px;}
+.cms_image_selectarea input[type="radio"] {
+    position: absolute;
+    opacity: 0;
+}
+.cms_image_selectarea input[type="radio"] + label {
+    position: relative;
+    padding-left: 1.5em;
+    vertical-align: middle;
+    cursor: pointer;
+    display: block;
+}
+.cms_image_selectarea input[type="radio"] + label:before,
+.cms_image_selectarea input[type="radio"] + label:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 1em;
+    width: 1em;
+    border-radius: 1em;
+    top: calc(50% - 0.5em);
+}
+.cms_image_selectarea input[type="radio"] + label img {
+    width: 100%;
+}
+.cms_image_selectarea input[type="radio"] ~ .image-bg {
+    border: 1px solid #a1a1a1;
+    border-radius: 5px;
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    cursor: pointer;
+}
+.cms_image_selectarea input[type="radio"] + label:before {
+    background: #ffffff;
+    border: 1px solid #a1a1a1;
+    box-shadow: inset 0 0 0 3px #ffffff;
+    z-index: 1;
+}
+.cms_image_selectarea input[type="radio"]:focus + label:after,
+.cms_image_selectarea input[type="radio"]:focus ~ .image-bg {
+    box-shadow: 1px 1px 10px 1px #35a6de;
+}
+.cms_image_selectarea input[type="radio"]:not(:disabled):hover + label:before,
+.cms_image_selectarea input[type="radio"]:not(:disabled):hover ~ .image-bg {
+    border: 1px solid #35a6de;
+}
+.cms_image_selectarea input[type="radio"]:checked + label:before {
+    background: #35a6de;
+    border: 1px solid #35a6de;
+}
+.cms_image_selectarea input[type="radio"]:checked ~ .image-bg {
+    border: 1px solid #35a6de;
+}
+.cms_image_selectarea input[type="radio"]:disabled + label,
+.cms_image_selectarea input[type="radio"]:disabled + label:before,
+.cms_image_selectarea input[type="radio"]:disabled ~ .image-bg {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.cms_image_selectarea .selectcms_img {
+    border-radius: 5px;
+    display: inline-block;
+    position: relative;
+    padding: 1em;
+    width: 100%;
+    max-width: 150px;
+    margin: 2px;
+}
+@media screen and (max-width:400px){
+    .cms_image_selectarea .selectcms_img {
+        max-width: 130px;
+    } 
+}
+
+.photo_upload_area{}
+.photo_upload_item{width: 24%;float:left;border:dotted 1px #646464;margin: 0 1% 0 0;padding:15px;}
+form.photoform .fileLoad{display:block;margin-bottom:5px;width:100%;max-width:300px}
+form.photoform .prevIMG{max-height:90px;width:auto;z-index:1}
+form.photoform .filePrev{background:#f7f7f7;border-radius:3px;padding:10px;width:100%;max-width:300px;position:relative}
+.photo_upload_item label{display:inline-block;max-width:100%;margin-bottom:5px;font-weight:700}
+.cms_imgdelete{cursor:pointer;background:#c00813;color:#fff;text-align:center;width:25px;height:25px;line-height:25px;display:inline-block;position:absolute;right:10px;top:10px;z-index:2}
+
+.photoform  .text-input{margin-bottom: 7px;margin-top: 7px;}
+.photoform .input_form input[type="text"]{
+    border: 1px solid #bbb;
+    border-radius: 5px;
+}
+
+/*調整smartselect無法下拉*/
+.open > .dropdown-menu {
+  display: block;
+}
+
+
+/* 跳整側邊欄 */
+.nav-sidebar .menu-open>.nav-link .right {
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}

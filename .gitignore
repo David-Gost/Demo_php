@@ -1,0 +1,15 @@
+##NetBeans##
+nbproject/
+
+##VSCode
+.vscode
+.history
+dir_conflicts.prej
+
+##SVN##
+.svn
+
+##Other##
+.DS_Store
+admin/resource/images/*
+*.pem

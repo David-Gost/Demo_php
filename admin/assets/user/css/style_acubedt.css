@@ -1,0 +1,275 @@
+/*all css start*//*all css start*//*all css start*/
+a:hover,a:focus{
+    cursor: pointer;
+}
+/*all css end*//*all css end*//*all css end*/
+
+/*header footer css start*//*header footer css start*/
+.skin-blue .main-header .logo {
+    background-color: #367fa9;
+    color: #fff;
+    border-bottom: 0 solid transparent;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.logo img{
+    width: 100%;
+    max-width: 150px;
+} 
+.navbar-profile_signout{
+    position: absolute;
+    top: 0;
+    right: 0;            
+    background:#005384;
+}
+.skin-blue .main-header .navbar-profile_signout .nav .open>a.dropdown-toggle{
+    background: #fff;
+}
+.skin-blue .main-header .navbar-profile_signout .nav .open>a.dropdown-toggle i{
+    color: #367fa9;
+}
+.navbar-profile_signout .dropdown > a.dropdown-toggle{
+    background: #3c8dbc;
+}
+.navbar-profile_signout .open .dropdown-menu{
+    right: 0;
+    left: auto;
+    background: #fff;
+}
+.main-header .navbar .nav>li>a {
+    font-size: 12px;
+    padding: 0px 10px;
+    line-height: 50px;
+}
+.navbar-right{
+    padding-right: 100px;
+    margin-right: 0px;
+}
+.navbar-nav>.user-menu>.dropdown-menu>li.user-header{
+    padding: 15px;
+    background-color: #fff;
+    min-height: 115px;
+    height: auto;
+
+}
+.navbar-nav>.user-menu>.dropdown-menu>li.user-header>p.username_font{
+    background: #3c8dbc;
+    color: #fff;
+    padding: 10px 15px;
+    text-align: center;
+    margin: 0 0 10px;
+    font-size: 15px;
+}
+.sidebar-mini.sidebar-collapse .main-footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding-left: 65px !important;
+    margin-left: 0px !important;
+    z-index: 809;
+    padding: 5px 15px;
+}
+.main-header .sidebar-toggle:before {
+    content: "\f013";
+}
+.user-menu .dropdown-toggle img{
+    width: 30px;
+}
+.main-sidebar{
+    position: fixed;
+    top: 0;
+    /*overflow-y: scroll;*/
+}
+.navbar-profile_signout .nav > li{
+    float: left;
+    width: 50px;
+}
+#codeigniter_profiler {
+    position: relative;
+    /*top: 0;*/
+    left: 50px;
+    width: 97%;
+    /*z-index: 999;*/
+    /*display: none;*/
+}
+@media screen and (min-width: 768px){
+    .sidebar-mini.sidebar-collapse .main-header .logo {
+        width: 230px;
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
+    .sidebar-mini.sidebar-collapse .main-header .navbar {
+        margin-left: 230px;
+    }
+    .skin-blue .main-header .logo.mobilelogo_block{
+        display: none;
+    }
+}
+@media screen and (min-width: 1200px) {  
+    .sidebar-mini.sidebar-collapse .main-header .logo {
+        width: 230px;
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
+    .sidebar-mini.sidebar-collapse .main-header .navbar {
+        margin-left: 230px;
+    }
+    .middlehide_text{
+        font-size: 12px;
+        font-weight: bold;
+    }
+}
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    .sidebar-mini.sidebar-collapse .main-header .logo {
+        width: 200px;
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
+    .sidebar-mini.sidebar-collapse .main-header .navbar {
+        margin-left: 200px;
+    }
+    .middlehide_text{
+        display: none;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .sidebar-mini.sidebar-collapse .main-header .logo {
+        width: 120px;
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
+    .sidebar-mini.sidebar-collapse .main-header .navbar {
+        margin-left: 120px;
+    }
+    .middlehide_text{
+        display: none;
+    }
+    /*    .sidebar-mini.sidebar-collapse .main-footer {
+            position: relative;
+            padding-left: 15px !important;
+        }*/
+    .logo img{
+        width: 100%;
+        max-width: 90px;
+    } 
+}
+@media screen and (max-width: 767px) {
+    .main-sidebar, .left-side {
+        padding-top: 50px;
+    }
+    .navbar-profile_signout {
+        position: absolute;
+        top: 0;
+        right: auto;
+        left: 40px;
+        background: transparent;
+    }
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #fff;
+    }
+    .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+        background-color: #367fa9;
+    }
+    .navbar-default .navbar-toggle {
+        border-color: #ddd;
+        margin-top: 3px;
+    }
+    .navbar-nav {
+        margin: 0;
+    }
+    .mobilehide_text{
+        display: none;
+    }
+    /*    .sidebar-mini.sidebar-collapse .main-footer {
+            position: relative;
+            padding-left: 15px !important;
+        }*/
+    .navbar-right {
+        padding-right: 0px;
+    }
+    .skin-blue .main-header .logo.mobilelogo_block{
+        position: absolute;
+        top: 0;
+        left: 100px;
+        width: 100px;
+        background-color: transparent;
+        padding: 0;
+    }
+    .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+        background-color: transparent;
+    }
+    .navbar-default .navbar-collapse{
+        /*width: calc(100% - 100px);*/
+    }
+    #codeigniter_profiler {
+        position: relative;
+        left: 0px;
+    }
+}
+@media screen and (max-width: 480px) { 
+    .navbar-nav>.user-menu>.dropdown-menu {
+        width: 230px;
+    }    
+    .navbar-nav>.notifications-menu>.dropdown-menu{
+        width: 230px;
+    }
+    #codeigniter_profiler {
+        position: relative;
+        left: 0px;
+    }
+}
+
+/*time start*/
+#tx{
+    font-size: 12px;
+    margin: 0;
+    color: #666;
+    display: inline-block;
+    font-family: 'Microsoft JhengHei';
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+#title{
+    display: none;
+}
+/*time end*/
+
+
+
+/*header footer css end*//*header footer css end*/
+
+
+
+
+/*content css start*//*content css start*/
+.content-header {
+    position: relative;
+    padding: 15px;
+    margin-top: 50px;
+}
+.content {
+    padding-bottom: 50px;
+}
+/*content css end*//*content css end*/
+
+
+
+
+ul.messenger.messenger-fixed.messenger-on-top {
+    top: 200px;
+}
+.messenger-message.message.alert.info.message-info.alert-info.messenger-will-hide-after{
+    background: rgba(255,0,0,0.5) !important;
+    border: 0px; 
+}
+.messenger-message-inner{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    margin: 10px 0;
+}
