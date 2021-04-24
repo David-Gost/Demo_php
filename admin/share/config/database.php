@@ -92,7 +92,7 @@ switch (ENVIRONMENT) {
             'dsn' => '',
             'hostname' => 'klbcedmmqp7w17ik.cbetxkdyhwsb.us-east-1.rds.amazonaws.com',
             'username' => 'k76hi4vvqrpyenij',
-            'password' => 'wemdeo19unkchx3r',
+            'password' => 'uqc0zhe2cj8gf3oj',
             'database' => "dvz7bh14baqr6qz7",
             'dbdriver' => 'mysqli',
             'dbprefix' => '',
