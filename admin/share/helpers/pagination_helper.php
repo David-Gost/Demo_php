@@ -12,7 +12,7 @@ function create_pagination($uri_segment, $base_url, $total_rows, $per_page = 10)
     return $CI->pagination->create_links();
 }
 
-function create_pagination_by_custom_config($uri_segment, $base_url, $total_rows, $per_page = 10, $custom_config) {
+function create_pagination_by_custom_config($uri_segment="", $base_url="", $total_rows=0, $per_page = 10, $custom_config=array()) {
 
     $CI = & get_instance();
     $config['uri_segment'] = $uri_segment;

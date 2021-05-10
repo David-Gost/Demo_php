@@ -268,7 +268,7 @@ function custom_download($fileinfo = '', $orig_file = '') {
  * @param $inputBase64 來源是否為base64
  * @param $is_match 符合寬高
  */
-function upload_cut_pic_easy($dto, $field = '', $orig_file = '', $width, $height, $pictype = 'jpg', $isMatchTargetWH = true) {
+function upload_cut_pic_easy($dto, $field = '', $orig_file = '', $width=0, $height=0, $pictype = 'jpg', $isMatchTargetWH = true) {
     $CI = & get_instance();
     $dto_name = 'set' . ucfirst($field);
 
@@ -344,7 +344,7 @@ function upload_cut_pic_easy($dto, $field = '', $orig_file = '', $width, $height
  * @param $inputBase64 來源是否為base64
  * @param $is_match 符合寬高
  */
-function upload_pic_easy($dto, $field = '', $orig_file = '', $width, $height, $pictype = 'jpg', $isMatchTargetWH = true) {
+function upload_pic_easy($dto, $field = '', $orig_file = '', $width=0, $height=0, $pictype = 'jpg', $isMatchTargetWH = true) {
     $CI = & get_instance();
     $dto_name = 'set' . ucfirst($field);
 

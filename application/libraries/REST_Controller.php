@@ -2203,7 +2203,7 @@ abstract class REST_Controller extends CI_Controller
 
     public function setResult_data($data=null)
     {
-        $this->result_data[] = $data;
+        $this->result_data = $data;
     }
 
     public function getResult_data()

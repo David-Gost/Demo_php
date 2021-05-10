@@ -20,7 +20,7 @@ GET /member/find_member_list?search_key=Eula
 {
     "message": [],
     "data": [
-        [
+        
             {
                 "memberSid": "10",
                 "name": "Eula Wheeler",
@@ -28,7 +28,7 @@ GET /member/find_member_list?search_key=Eula
                 "lastTransactionDate": "2021-01-11 04:29",
                 "lastPharmacyName": "Drug Blend"
             }
-        ]
+        
     ]
 }
 ```
@@ -344,7 +344,7 @@ GET /store/search_by_date?date=2021-04-07&time=12:00
 {
     "message": [],
     "data": [
-        [
+        
             {
                 "storeSid": "7",
                 "pharmacyName": "Longhorn Pharmacy",
@@ -376,7 +376,7 @@ GET /store/search_by_date?date=2021-04-07&time=12:00
                 "openingHours": "Mon - Tue 00:20 - 16:06 / Sun, Wed 10:02 - 13:23 / Thu 10:02 - 09:41 / Fri 16:08 - 21:01"
             }
         ]
-    ]
+    
 }
 ```
 
@@ -412,7 +412,7 @@ Status-Code: 200 Http ok
 {
     "message": [],
     "data": [
-        [
+        
             {
                 "storeSid": "1",
                 "pharmacyName": "Better You",
@@ -493,7 +493,7 @@ Status-Code: 200 Http ok
                 "pharmacyName": "DFW Wellness",
                 "openingHours": "Mon - Tue 00:20 - 16:06 / Sun, Wed 10:02 - 13:23 / Thu 10:02 - 09:41 / Fri 16:08 - 21:01"
             }
-        ]
+        
     ]
 }
 
@@ -533,7 +533,7 @@ Status-Code: 200 Http ok
 {
     "message": [],
     "data": [
-        [
+        
             {
                 "storeSid": "4",
                 "pharmacyName": "MedSavvy",
@@ -570,7 +570,7 @@ Status-Code: 200 Http ok
                 "openingHours": "Mon 04:08 - 20:52 / Tue 01:01 - 06:01 / Wed, Sat 11:18 - 20:37 / Thu 16:44 - 23:43 / Sun 04:26 - 14:48"
             }
         ]
-    ]
+    
 }
 
 ```
@@ -597,7 +597,7 @@ Status-Code: 200 Http ok
 {
     "message": [],
     "data": [
-        [
+        
             {
                 "storeSid": "19",
                 "pharmacyName": "RxToMe",
@@ -608,7 +608,7 @@ Status-Code: 200 Http ok
                 "pharmacyName": "Assured Rx",
                 "openingHours": "Mon, Sat 02:30 - 06:43 / Tue - Wed 08:44 - 11:28 / Thu 02:06 - 05:27 / Fri 05:24 - 16:59"
             }
-        ]
+        
     ]
 }
 
@@ -652,7 +652,7 @@ Status-Code: 200 Http ok
 {
     "message": [],
     "data": [
-        [
+        
             {
                 "productAttrSid": "3",
                 "storeSid": "2",
@@ -681,7 +681,7 @@ Status-Code: 200 Http ok
                 "maskName": "AniMask (green) (10 per pack)",
                 "price": "49.21"
             }
-        ]
+        
     ]
 }
 ```
@@ -724,7 +724,7 @@ Status-Code: 200 Http ok
 {
     "message": [],
     "data": [
-        [
+        
             {
                 "productAttrSid": "61",
                 "storeSid": "14",
@@ -739,7 +739,7 @@ Status-Code: 200 Http ok
                 "maskName": "Masquerade (black) (3 per pack)",
                 "price": "3.76"
             }
-        ]
+        
     ]
 }
 
@@ -767,7 +767,7 @@ Status-Code: 200 Http ok
 {
     "message": [],
     "data": [
-        [
+        
             {
                 "productAttrSid": "2",
                 "maskName": "MaskT (black) (10 per pack)",
@@ -943,7 +943,7 @@ Status-Code: 200 Http ok
                 "pharmacyName": "Assured Rx",
                 "price": "35.66"
             }
-        ]
+        
     ]
 }
 
@@ -1096,7 +1096,7 @@ Status-Code: 200 Http ok
 {
     "message": [],
     "data": [
-        [
+        
             {
                 "memberSid": "12",
                 "memberName": "Tamara Dean",
@@ -1112,7 +1112,7 @@ Status-Code: 200 Http ok
                 "memberName": "Bobbie Russell",
                 "transactionAmount": "42.29"
             }
-        ]
+        
     ]
 }
 
@@ -1154,7 +1154,7 @@ Status-Code: 200 Http ok
 {
     "message": [],
     "data": [
-        [
+        
             {
                 "memberSid": "12",
                 "memberName": "Tamara Dean",
@@ -1170,7 +1170,7 @@ Status-Code: 200 Http ok
                 "memberName": "Bobbie Russell",
                 "transactionAmount": "42.29"
             }
-        ]
+        
     ]
 }
 
