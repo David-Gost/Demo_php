@@ -1,4 +1,4 @@
-# kdan_test
+# API Demo
 [API 說明文件](ApiInfo.md)
 
 [Demo連結](https://david-php-demo.herokuapp.com/admin)
